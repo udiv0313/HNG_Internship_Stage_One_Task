@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) =>  res.send("Stage One Task"));
 
-app.get('/user', (req, res) => {
+app.get('/api', (req, res) => {
     
     const slack_name = req.query.slack_name;
     const track = req.query.track;
