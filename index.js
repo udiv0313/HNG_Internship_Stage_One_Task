@@ -40,7 +40,7 @@ app.get('/api', (req, res) => {
         "current_day": currentWeekDayName,
         "utc_time": utc_time_format,
         "track": track,
-        "github_file_url": "https://stage-one-ep8e.onrender.com/user?slack_name=Uttkarsh%20Dhania&track=Backend",
+        "github_file_url": "https://github.com/udiv0313/HNG_Internship_Stage_One_Task/blob/main/index.js",
         "github_repo_url": "https://github.com/udiv0313/HNG_Internship_Stage_One_Task",
         "status_code" : 200
     }
